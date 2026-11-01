@@ -1,0 +1,8 @@
+U = float(input("Voltage: "))
+R = float(input("Resistance: "))
+
+if R == 0:
+    print("Error: the resistance can't be 0")
+else:
+    I = U / R
+    print(f"{U} / {R} = {I:.2f}")
