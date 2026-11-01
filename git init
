@@ -1,0 +1,10 @@
+git init
+
+git remote add origin https://github.com
+
+git add main.py
+
+git commit -m "feat: add corrected Ohm's law script with zero division check"
+git branch -M main
+
+git push -u origin main
